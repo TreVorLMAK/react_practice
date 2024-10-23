@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+}
+body {
+    font-family: sans-serif;
+}
+
+button{
+    height: 32px;
+    color: white;
+    background-color: rgb(172, 61, 61);
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+}   
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;
+}
+.container{
+    max-width: 1280px;
+    margin:0 auto;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+nav img{
+    width: 50px;
+}
+
+.hero {
+    display: flex;
+    height: calc(100vh - 72px);
+    align-items: center;
+}
+.brand-icons img{
+   height: 40px;
+
+}
+.hero-img img{
+    height: 400px;
+    padding-bottom: 5px;
+}
+
+.hero h1{
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 800;
+}
+
+.hero p{
+    font-weight: 600;
+    color: gray;
+}
+
+.hero-btn{
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.shopping{
+    padding-top: 5px;
+}
